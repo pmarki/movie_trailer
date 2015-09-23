@@ -1,13 +1,11 @@
-import webbrowser
 class Movie:
-    """Class stores information about particular movie: title, year, genre, storyline, poster image and youtube trailer"""
+    """Class stores information about particular movie: title, year,
+    genre, storyline, poster image and youtube trailer"""
 
-    def __init__(self, title, year, genre, storyline, poster_image, trailer_youtube):
+    def __init__(self, title, year, genre, storyline, poster, trailer):
         self.title = title
         self.year = year
         self.genre = genre
         self.storyline = storyline
-        self.poster_image_url = poster_image
-        self.trailer_youtube_url = trailer_youtube
-
-
+        self.poster_image_url = poster
+        self.trailer_youtube_url = trailer
